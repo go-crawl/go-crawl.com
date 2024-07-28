@@ -6,3 +6,6 @@ title = 'Gocrawler Project'
 [module]
 [[module.imports]]
 path = 'github.com/alex-shpak/hugo-book'
+
+[params]
+  favicon = "favicon.ico"
