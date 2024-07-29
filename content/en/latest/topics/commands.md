@@ -4,6 +4,8 @@ date = 2024-07-29T18:58:15+02:00
 draft = false
 +++
 
+# Command line tool
+
 ## Default structure of Gocrawl projects
 
 ```
