@@ -12,7 +12,7 @@ path = "github.com/alex-shpak/hugo-book"
 
 BookMenuBundle= "/docs/menu"
 
-defaultContentLanguage = 'de'
+defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
 [languages]
 
@@ -22,18 +22,18 @@ defaultContentLanguageInSubdir = true
     languageCode = 'en-US'
     languageDirection = 'ltr'
     languageName = 'English'
-    title = 'Project Documentation'
-    weight = 2
+    title = 'Gocrawler Project'
+    weight = 1
     [languages.en.params]
       subtitle = 'Reference, Tutorials, and Explanations'
       
-  [languages.de]
-    contentDir = 'content/de'
+  [languages.zh-cn]
+    contentDir = 'content/zh-cn'
     disabled = false
-    languageCode = 'de-DE'
+    languageCode = 'zh-CN'
     languageDirection = 'ltr'
-    languageName = 'Deutsch'
-    title = 'Projekt Dokumentation'
-    weight = 1
-    [languages.de.params]
+    languageName = '中文'
+    title = 'Gocrawler爬虫项目'
+    weight = 2
+    [languages.zh-cn.params]
       subtitle = 'Referenz, Tutorials und Erklärungen'
