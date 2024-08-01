@@ -1,11 +1,13 @@
 min_version = "0.129.0"
-baseURL = 'https://www.go-crawler.com/'
-languageCode = 'en-us'
-title = 'Gocrawler Project'
+baseURL = "https://www.go-crawler.com/"
+languageCode = "en-us"
+title = "Gocrawler Project"
 
 [module]
 [[module.imports]]
-path = 'github.com/alex-shpak/hugo-book'
+path = "github.com/alex-shpak/hugo-book"
 
 [params]
   favicon = "favicon.ico"
+
+BookMenuBundle= "/docs/menu"
