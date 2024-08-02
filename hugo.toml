@@ -1,5 +1,4 @@
 min_version = "0.129.0"
-baseURL = "https://www.go-crawler.com/"
 languageCode = "en-us"
 title = "Gocrawler Project"
 
